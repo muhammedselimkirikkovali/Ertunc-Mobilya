@@ -1766,8 +1766,9 @@ pre code {
 }
 .table th,
 .table td {
-  padding: 0.75rem;
-  vertical-align: top;
+  padding: 0.2rem;
+  vertical-align: middle;
+  text-align: center;
   border-top: 1px solid #dee2e6;
 }
 .table thead th {
@@ -11325,7 +11326,14 @@ textarea.form-control {
   border: #000;
   border-style: solid;
   border-width: 1px;
-  border-color: #d4edda;
+  border-color: #717171bd;
+}
+
+.table-text {
+  font-size: 25px;
+  font-style: italic;
+  color: #000000;
+  font-weight: bold;
 }
 
 .getstarted,
